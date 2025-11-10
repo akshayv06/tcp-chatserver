@@ -43,6 +43,4 @@ If not hosted, the video demonstrates the server running locally.
 git clone https://github.com/akshayv06/tcp-chatserver.git
 cd tcp-chatserver
 
-### Step 2 — Build the Project
-```bash
 mvn clean install
