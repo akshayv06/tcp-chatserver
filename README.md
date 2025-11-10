@@ -6,6 +6,7 @@ What to Deliver
 Implementation of the chat server using Java Sockets inside a Spring Boot application.
 
 Uses only standard Java libraries (java.net, java.io, concurrent) — no external chat frameworks.
+
 2️. README File
 
 Contains:
