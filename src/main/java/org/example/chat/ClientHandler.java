@@ -49,7 +49,7 @@ public class ClientHandler implements Runnable {
             broadcast("INFO " + username + " joined the chat", null);
             updateActivity();
 
-            // Chat Phase
+            // Chat Phase(Broadcasting the message throughout the server)
             String message;
             while ((message = reader.readLine()) != null) {
                 updateActivity();
