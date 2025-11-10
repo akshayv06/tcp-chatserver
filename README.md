@@ -67,6 +67,7 @@ Example Chat Session
 Client 1:
 
 $ nc localhost 4000
+
 LOGIN akshay
 
 OK
@@ -99,8 +100,6 @@ INFO akshay disconnected
 When a user disconnects:
 
 INFO akshay disconnected
-
- Idle Timeout / Heartbeat 
 
 The server disconnects inactive users automatically after 60 seconds of inactivity and notifies all others.
 
