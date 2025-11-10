@@ -42,5 +42,3 @@ If not hosted, the video demonstrates the server running locally.
 ```bash
 git clone https://github.com/akshayv06/tcp-chatserver.git
 cd tcp-chatserver
-
-mvn clean install
