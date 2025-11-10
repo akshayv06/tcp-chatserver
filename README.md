@@ -1,8 +1,5 @@
 TCP Chat Server
 
-A simple multi-client TCP chat server built using Python sockets (standard library only).
-It allows multiple users to connect, log in, send messages, and receive real-time chat updates.
-
 What to Deliver
 1️. Source Code
 
@@ -40,21 +37,26 @@ Maven 3.6+
 
 Spring Boot 3.x
 Build and Run the Server
+
 Step 1 — Clone the Repository
+
 git clone https://github.com/akshayv06/tcp-chatserver.git
+
 cd tcp-chatserver
 
 Step 2 — Build the Project
+
 mvn clean install
 
 Step 3 — Run the Server
+
 mvn spring-boot:run
 
 The server starts listening on:
 
 localhost:4000
 
-💬 Connect Clients
+ Connect Clients
 
 Use netcat (nc) or telnet to connect from multiple terminals.
 
@@ -66,33 +68,45 @@ Client 1:
 
 $ nc localhost 4000
 LOGIN akshay
+
 OK
+
 INFO akshay joined the chat
+
 MSG Hi everyone
+
 INFO gagan joined the chat
+
 MSG gagan yo
+
 INFO disconnected due to inactivity
 
 Client 2:
 
 $ nc localhost 4000
+
 LOGIN gagan
+
 OK
+
 INFO gagan joined the chat
+
 MSG yo
+
 INFO akshay disconnected
+
 
 When a user disconnects:
 
 INFO akshay disconnected
 
-🕒 Idle Timeout / Heartbeat 
+ Idle Timeout / Heartbeat 
 
 The server disconnects inactive users automatically after 60 seconds of inactivity and notifies all others.
 
-👨‍💻 Author
+ Author
 
 Akshay Verma
-📧 Email: av2139456@gmail.com
+ Email: av2139456@gmail.com
 
-🔗 GitHub: https://github.com/akshayv06
+ GitHub: https://github.com/akshayv06
