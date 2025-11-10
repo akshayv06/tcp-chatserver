@@ -19,7 +19,7 @@ Example commands to connect (via nc or telnet)
 
 Example chat interaction between multiple users
 
-3️. 🎥 Screen Recording (Compulsory)
+3️.  Screen Recording (Compulsory)
 
 Watch a short demo video (1–2 minutes) showing:
 
@@ -32,8 +32,8 @@ Video Link: https://www.loom.com/share/2f8df38efe5e44e7b9172f723f0aa373
 4️. Deployment Link
 If not hosted, the video demonstrates the server running locally.
 
-⚙️ How to Run
-🧩 Requirements
+ How to Run
+ Requirements
 Java 17 or later
 
 Maven 3.6+
