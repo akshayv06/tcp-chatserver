@@ -66,6 +66,8 @@ MSG gagan yo
 
 INFO disconnected due to inactivity
 
+---
+
 ### 3. Screen Recording (Compulsory)
 A short demo video (1–2 minutes) showing:
 - The server running
